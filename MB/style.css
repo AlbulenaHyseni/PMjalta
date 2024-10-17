@@ -1,0 +1,171 @@
+ul a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 25px:   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+}
+li a{
+    padding: 10px;
+}
+
+body{
+    background-image: url(crumbl.cookie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    margin-right: 60px;
+    margin-top: 40px;
+}
+#kryesore{
+    position: absolute;
+    bottom: 400px;
+    left: 550px;
+    color: hotpink;
+}
+#titulli{
+    font-size: 70px;
+}
+#btn{
+    margin-left: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    color: hotpink;
+}
+#buttn{
+    margin-left: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    text-decoration-line: underline;
+     display: flex;
+     justify-content: center;
+    background-color: aqua;
+
+}
+#side{
+    text-align: center;
+    
+}
+.login-form{
+     border: 1px solid #ccc;
+     padding: 40px ;
+     width: 300px;
+     margin: 0 auto;
+     background-color: whitesmoke ;
+     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.login-form h2{
+     text-align: center;
+     margin-bottom: 20px ;
+}
+.login-form label{
+     display: block;
+     margin-bottom: 10px;
+}
+.login-form input[type="text"], login-form input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom:20px ;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.login-form input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: hotpink;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-form  input[type="submit"]:hover {
+    background-color: hotpink ;
+}
+body{
+    background-image: url(pink.wallpaper.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sign-in-form {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+body{
+    background-image: url(pink.wallpaper.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    width: 30%; /* adjust the width to your liking */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+#image1{
+    background-image: url(favorite.crumbl.jpg);
+    background-repeat: no-repeat;
+
+}
+#image2{
+    background-image: url(leastliked.jpg);
+}
+form{
+    padding: 20px;
+}
